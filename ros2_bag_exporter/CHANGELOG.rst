@@ -2,6 +2,17 @@
 Changelog for package ros2_bag_exporter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Jazzy migration (`#34 <https://github.com/assistive-autonomy/tartan_rosbag_exporter/issues/34>`_)
+  * Migrate ROS2 from Humble to Jazzy
+  - Also migrate from CycloneDDS to Zenoh
+  - Bring ford msg dependencies from source not available in Jazzy
+  - Fix minor cv_bridge issue pointing to new include header
+  * Remove deprecated mergify configuration
+  * Fix pre-commit issues
+* Contributors: Alejandro Bordallo Micó
+
 2.0.0 (2025-08-07)
 ------------------
 * Fix camera-lidar timestamp synchronisation (`#25 <https://github.com/ipab-rad/tartan_rosbag_exporter/issues/25>`_)
