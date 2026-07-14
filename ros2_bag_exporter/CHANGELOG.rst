@@ -2,8 +2,8 @@
 Changelog for package ros2_bag_exporter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.0.0 (2026-07-14)
+------------------
 * Jazzy migration (`#34 <https://github.com/assistive-autonomy/tartan_rosbag_exporter/issues/34>`_)
   * Migrate ROS2 from Humble to Jazzy
   - Also migrate from CycloneDDS to Zenoh
