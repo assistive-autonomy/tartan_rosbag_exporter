@@ -17,12 +17,11 @@
 #include "rclcpp/logging.hpp"
 #include "rosbag2_exporter/handlers/base_handler.hpp"
 
+#include <cv_bridge/cv_bridge.hpp>
 #include <opencv2/opencv.hpp>
 
 #include "sensor_msgs/msg/compressed_image.hpp"
 #include "sensor_msgs/msg/image.hpp"
-
-#include <cv_bridge/cv_bridge.hpp>
 
 #include <filesystem>
 #include <iomanip>
